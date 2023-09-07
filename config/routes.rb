@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   get '/data', to: 'data#index'
 
   get '/navbar', to: 'navbar#index'
+
+  get '/alumnos', to: 'alumnos#index'
+
+  get 'form', to: 'form#index'
 end

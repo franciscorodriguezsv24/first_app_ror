@@ -1,4 +1,4 @@
 class NavbarController < ApplicationController
-    def index
+    def _index
     end
 end
