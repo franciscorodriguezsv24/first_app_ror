@@ -20,7 +20,7 @@ Directorio principal
 
 Como instalar Ruby y Ruby on rails 
 
-*Todo esto es la terminal*
+*Todo esto en la terminal*
 
 1 - Debes instalar el manejador de paquetes homebrew con el siguiente codigo 
 
