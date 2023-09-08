@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   get 'form', to: 'form#index'
 
   get '/pokemon', to: 'pokemon_cards#index'
+
+  get '/healthcheck', to: 'healthcheck#index'
 end

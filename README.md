@@ -1,24 +1,51 @@
-# README
+# My_app en rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requerimientos
 
-Things you may want to cover:
+*Ruby version*
 
-* Ruby version
+ - ruby 3.2.2
 
-* System dependencies
+*Rails version*
 
-* Configuration
+ - rails 7.0.7.2
+ 
+Gemas (Usa el comando "bunble install") para que se instalen todas las gemas
+- Bootstrap 
+- Httparty
+- Jbuilder 
 
-* Database creation
+Directorio principal 
+- /welcome 
 
-* Database initialization
+Como instalar Ruby y Ruby on rails 
 
-* How to run the test suite
+1 - Debes instalar el manejador de paquetes homebrew con el siguiente codigo 
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
-* Deployment instructions
+2 - Instalaremos RVM por su siglas en ingles (Ruby Version Manager), este nos permitira instalar Ruby 
 
-* ...
+```bash
+curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable --rails
+```
+
+3 - Reinicia la terminal para que tengas disponible el comando rvm y luego procede a instalar Ruby 
+
+```bash
+rvm install 3.2.2
+```
+Luego verifica si tienes instalado Ruby y su version correspondiente. 
+
+```bash
+ruby -v
+```
+4 - Ya instalado ruby pasamos al ultimo paso de instalar Rails. 
+
+```bash 
+gem install rails -v 7.0.7.2  --no-document 
+```
+
+esto nos deberia tener rails instalado en nuestro sistema. 
