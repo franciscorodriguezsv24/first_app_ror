@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'pokemon_cards/index'
   get 'home/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -14,4 +15,6 @@ Rails.application.routes.draw do
   get '/alumnos', to: 'alumnos#index'
 
   get 'form', to: 'form#index'
+
+  get '/pokemon', to: 'pokemon_cards#index'
 end

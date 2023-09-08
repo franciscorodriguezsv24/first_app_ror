@@ -1,0 +1,11 @@
+
+<h1 class="bg-warning text-center">Tarjetas Pokémon</h1>
+
+<div class="pokemon-cards row">
+  <% @pokemon_cards.each do |pokemon_card| %>
+    <div class="pokemon-card border border-black col-12 col-sm-6 col-md-4 d-flex flex-row justify-content-center align-items-center">
+      <h2> <%= pokemon_card.name %></h2>
+      <img src="<%= pokemon_card.image_url %>" alt="<%= pokemon_card.name %>">
+    </div>
+  <% end %>
+</div>

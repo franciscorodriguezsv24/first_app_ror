@@ -29,6 +29,13 @@ gem "jbuilder"
 # To create our app with bootstrap 
 gem 'bootstrap', '~> 5.0'
 
+#httparty para agregar las solicitudes http a la api 
+
+gem 'httparty'
+
+#dotenv-rails para gestionar variables de entorno
+
+gem 'dotenv-rails'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
